@@ -24,7 +24,7 @@ public class PriRLAB2 {
                     watki = scan.nextInt();
                     for (int i = 0; i < watki; i++) {
                         if (i != 0)
-                            ai = a + roznica / watki * i + 0.01;
+                            ai = a + roznica / watki * i;
                         else
                             ai = a + roznica / watki * i;
                         bi = a + roznica / watki * (i + 1);
@@ -40,7 +40,7 @@ public class PriRLAB2 {
                     watki = scan.nextInt();
                     for (int i = 0; i < watki; i++) {
                         if (i != 0)
-                            ai = a + roznica / watki * i + 0.01;
+                            ai = a + roznica / watki * i;
                         else
                             ai = a + roznica / watki * i;
                         bi = a + roznica / watki * (i + 1);
@@ -56,7 +56,7 @@ public class PriRLAB2 {
                     watki = scan.nextInt();
                     for (int i = 0; i < watki; i++) {
                         if (i != 0)
-                            ai = a + roznica / watki * i + 0.01;
+                            ai = a + roznica / watki * i;
                         else
                             ai = a + roznica / watki * i;
                         bi = a + roznica / watki * (i + 1);
